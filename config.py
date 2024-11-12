@@ -6,5 +6,6 @@ class Configs(BaseSettings):
       desc:str
       mongo_url:str
       db_name:str
+      port:int
 
 config=Configs()
