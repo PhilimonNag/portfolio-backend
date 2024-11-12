@@ -1,0 +1,59 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environment directories
+env/
+venv/
+.venv/
+
+# Environment and configuration files
+.env
+.env.*
+*.env
+
+# Database files
+*.sqlite3
+*.db
+
+# Pytest cache and logs
+.pytest_cache/
+*.pytest_cache
+coverage_html_report/
+coverage.xml
+htmlcov/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+
+# Logs and temporary files
+logs/
+*.log
+*.pot
+*.pyc
+.DS_Store
+
+# VS Code and PyCharm project files
+.vscode/
+.idea/
+
+# Docker-related files (optional)
+docker-compose.override.yml
+.docker/
+docker-compose.override.yml
+
+# FastAPI-specific cache or static files
+*.cache
+static/
+media/
+
+# Compiled Cython files
+*.so
+
+# OS or IDE-specific files
+Thumbs.db
+*.DS_Store
