@@ -30,7 +30,8 @@ def update_project(id:str,updateProject:UpdateProject):
 @router.get("/")
 def get_projects():
     try:
-       res=db["project"].find().to_list()
+    #    res=db["project"].find().to_list()
+       res=db["project"].find().sort("order", 1).to_list(length=None)
        if res:
           data=objectid_to_str(res)
           return {"data":data}
